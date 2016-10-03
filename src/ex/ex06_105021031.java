@@ -5,14 +5,30 @@ package ex;
  * y = x3+3*x-3			若 -1 <= x <= 1
  * y = 2*x+3			若 x > 1
  * Date: 2016/10/03
- * Author: 1050210XX 周永振老師
+ * Author: 105021031 孟京澤
  */
-
-public class ex06_1050210XX {
+import java.util.*;
+public class ex06_105021031 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner src=new Scanner(System.in);
+		int x=src.nextInt();
+		int y=0;
+		
+		if(x<-1)
+		{
+			y=18;
+		}
+		else if(-1<=x&& x<=1)
+		{
+			y=x*3+9*x-3;
+		}
+		else
+		{
+			y=4*x+3;
+		}
+		System.out.print(y);
 	}
 
 }
