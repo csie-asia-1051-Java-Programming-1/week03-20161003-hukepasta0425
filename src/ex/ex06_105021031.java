@@ -18,15 +18,15 @@ public class ex06_105021031 {
 		
 		if(x<-1)
 		{
-			y=18;
+			y=3*x*x;
 		}
 		else if(-1<=x&& x<=1)
 		{
-			y=x*3+9*x-3;
+			y=x*x*x+3*x-3;
 		}
 		else
 		{
-			y=4*x+3;
+			y=2*x+3;
 		}
 		System.out.print(y);
 	}
